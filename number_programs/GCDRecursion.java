@@ -1,0 +1,15 @@
+public class GCDRecursion {
+    public static int gcd(int a, int b) {
+        if (b == 0) {
+            return a;
+        } else {
+            return gcd(b, a % b);
+        }
+    }
+
+    public static void main(String[] args) {
+        int a = 56;  // Example value
+        int b = 98;  // Example value
+        System.out.println("GCD of " + a + " and " + b + " is: " + gcd(a, b));
+    }
+}
