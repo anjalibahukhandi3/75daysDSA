@@ -1,5 +1,3 @@
-package number_programs;
-
 import java.util.Scanner;
 
 public class SumAndAverage {

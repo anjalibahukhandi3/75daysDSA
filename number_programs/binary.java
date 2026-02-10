@@ -20,10 +20,5 @@ public class binary {
             power++;
         }
         return decimal;
-    }
-
-    @Override
-    public String toString() {
-        return "Main []";
-    }
+}
 }

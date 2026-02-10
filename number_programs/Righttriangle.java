@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class right_triangle{
+public class Righttriangle {
     public static void main(String[] args){
         Scanner sc =new Scanner(System.in);
         int  row;
